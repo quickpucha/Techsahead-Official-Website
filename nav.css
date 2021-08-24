@@ -8,12 +8,11 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
 
 body{
     background: #121212;
-
 }
 
 .default-nav{
@@ -79,7 +78,7 @@ body{
         width: 80%;
     }
     /**********ul.toogle*********/
-    .mobile-nav .container ul.toggle{
+    .mobile-nav .container-nav ul.toggle{
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -90,7 +89,7 @@ body{
         width: 50px;   height: 50px;
         cursor: pointer;
     }
-    .mobile-nav .container ul.toggle li{
+    .mobile-nav .container-nav ul.toggle li{
         /* position: absolute; */
         transform: translateY(-50%);
         height: 5px;  width: 90%;
@@ -98,32 +97,32 @@ body{
         background: #fff;
         transition: .9s;
     }
-    /* .mobile-nav .container ul.toggle li:nth-of-type(1){
+    /* .mobile-nav .container-nav ul.toggle li:nth-of-type(1){
         top: 20%;
     }
-    .mobile-nav .container ul.toggle li:nth-of-type(2){
+    .mobile-nav .container-nav ul.toggle li:nth-of-type(2){
         top: 50%;
     }
-    .mobile-nav .container ul.toggle li:nth-of-type(3){
+    .mobile-nav .container-nav ul.toggle li:nth-of-type(3){
         top: 80%;
     } */
-    .mobile-nav .container ul.toggle.active li:nth-of-type(1){
+    .mobile-nav .container-nav ul.toggle.active li:nth-of-type(1){
         /* top: 50%; */
         margin-top: 24px;
         transform: translateY(-50%) rotate(45deg);
     }
-    .mobile-nav .container ul.toggle.active li:nth-of-type(2){
+    .mobile-nav .container-nav ul.toggle.active li:nth-of-type(2){
         margin-right: 100%;
         opacity: 0;
     }
-    .mobile-nav .container ul.toggle.active li:nth-of-type(3){
+    .mobile-nav .container-nav ul.toggle.active li:nth-of-type(3){
         margin-bottom: 24px;
         top: 50%;
         transform: translateY(-50%) rotate(-45deg);
     }
 
     /******Sidebar******/
-    .mobile-nav .container .sidebar{
+    .mobile-nav .container-nav .sidebar{
         position: fixed;
         top: 0;  left: -350px;
         background: #262626;
@@ -134,30 +133,30 @@ body{
         transition: .9s;
         z-index: 4;
     }
-    .mobile-nav .container .sidebar.active{
+    .mobile-nav .container-nav .sidebar.active{
         left: 0;
     }
-    .mobile-nav .container .sidebar img{
+    .mobile-nav .container-nav .sidebar img{
         position: relative;
         width: 150px;  height: 150px;
         border-radius: 50%;
         /* background: #fff;     */
         border: 1px solid white;
     }
-    .mobile-nav .container .sidebar img:hover{
+    .mobile-nav .container-nav .sidebar img:hover{
         background:#121212b7;
         transition: all 0.3s ease-in-out;
     }
-    .mobile-nav .container .sidebar ul.menu{
+    .mobile-nav .container-nav .sidebar ul.menu{
         position: relative;
         text-align: center;
         width: 100%;
         margin-top: 20px;
     }
-    .mobile-nav .container .sidebar ul.menu li{
+    .mobile-nav .container-nav .sidebar ul.menu li{
         list-style: none;
     }
-    .mobile-nav .container .sidebar ul.menu li a{
+    .mobile-nav .container-nav .sidebar ul.menu li a{
         display: inline-block;
         position: relative;
         text-decoration: none;  text-transform: uppercase;
@@ -166,21 +165,21 @@ body{
         box-sizing: border-box;
         font-size: 20px;
     }
-    .mobile-nav .container .sidebar ul.menu li:hover a{
+    .mobile-nav .container-nav .sidebar ul.menu li:hover a{
         /* background: #ff5722; */
         color: #ED221D;
     }
-    /* .container .sidebar ul.social-icon{
+    /* .container-nav .sidebar ul.social-icon{
         position: relative;
         margin-top: 30%;
         width: 100%;   height: 55px;
     }
-    .container .sidebar ul.social-icon li{
+    .container-nav .sidebar ul.social-icon li{
         list-style: none;
         width: calc(100% /5);  height: 100%;
         float: left;
     }
-    .container .sidebar ul.social-icon li a{
+    .container-nav .sidebar ul.social-icon li a{
         text-decoration: none;
         display: inline-block; 
         width: 100%;   height: 100%; 
@@ -189,10 +188,10 @@ body{
         border-radius: 50%;
         font-size: 25px;    
     }
-    .container .sidebar ul.social-icon li:hover a{
+    .container-nav .sidebar ul.social-icon li:hover a{
         color: #ED221D;
     }
-    .container .sidebar ul.social-icon a .fa{
+    .container-nav .sidebar ul.social-icon a .fa{
         line-height: 55px;
     } */
 }
@@ -207,18 +206,18 @@ body{
         width: 75%;
     }
     /**********ul.toogle*********/
-    .mobile-nav .container ul.toggle{
+    .mobile-nav .container-nav ul.toggle{
         width: 50px;   
         height: 40px;
     }
-    .mobile-nav .container ul.toggle li{
+    .mobile-nav .container-nav ul.toggle li{
         height: 3px;  
         width: 90%;
     }
-    .mobile-nav .container ul.toggle.active li:nth-of-type(1){
+    .mobile-nav .container-nav ul.toggle.active li:nth-of-type(1){
         margin-top: 18px;
     }
-    .mobile-nav .container ul.toggle.active li:nth-of-type(3){
+    .mobile-nav .container-nav ul.toggle.active li:nth-of-type(3){
         margin-bottom: 18px;
     }
 }
@@ -240,11 +239,11 @@ body{
         width: 80%;
     }
     /**********ul.toogle*********/
-    .mobile-nav .container ul.toggle{
+    .mobile-nav .container-nav ul.toggle{
         width: 50px;   
         height: 30px;
     }
-    .mobile-nav .container ul.active{
+    .mobile-nav .container-nav ul.active{
         display: block;
         position: relative;
         width: 50px;   

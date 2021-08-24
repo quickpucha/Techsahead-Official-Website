@@ -1,22 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="index.css">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="/Footer/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <title>Techsahead 💻</title>
 </head>
+
 <body>
-  <section>
-    <div>
-      <img src="Logo2.png" alt="logo" class="logo" />
-      <div class="container">
-        <div class="dot dot-1"></div>
-        <div class="dot dot-2"></div>
-        <div class="dot dot-3"></div>
-      </div>
-  </div>
-  </section>
+    <section class="hero">
+        <div id="nav-placeholder">
+        </div>
+        <div class="sub-hero">
+            <div class="hero-text">
+                <h1>TECHSAHEAD</h1>
+                <h3>A place to learn and grow together!</h3>
+                <a href=""><button class="ca-button">Become our Campus Ambassador</button></a>
+            </div>
+            <div class="hero-image">
+                <img class="image" src="/img/home-hero.svg" alt="hero">
+            </div>
+        </div>
+    </section>
+    <div id="footer-placeholder">
+    </div>
 </body>
+<script>
+    $(document).ready(function () {
+        $('.container ul.toggle').click(function () {
+            $(this).toggleClass('active');
+            $('.container .sidebar').toggleClass('active');
+        })
+    })
+</script>
+
+<script>
+    $(function () {
+        $("#nav-placeholder").load("../nav.html");
+    });
+</script>
+
+<script>
+    $(function () {
+        $("#footer-placeholder").load("/Footer");
+    });
+</script>
+
 </html>
