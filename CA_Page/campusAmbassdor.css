@@ -1,10 +1,23 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
 
 *{
-     background-color: black;
+     /* background-color: black; */
     color: white;
 } 
-.team4 {
+
+.team{
+  background-color: #202020;
+}
+
+ul{
+  margin-bottom: 0;
+}
+
+#nav-placeholder ul li a{
+  padding-right: 0;
+}
+
+/* .team4 {
   font-family: "Montserrat", sans-serif;
 	color: #3e4555;
   font-weight: 300;
@@ -27,9 +40,9 @@
     color: #8d97ad;
     line-height: 24px;
 		font-size: 13px;
-}
+} */
 
-ul li a {
+.team ul li a {
   color: #8d97ad;
   padding-right: 15px;
   -webkit-transition: 0.1s ease-in;
@@ -37,7 +50,7 @@ ul li a {
   transition: 0.1s ease-in;
 }
 
-ul li a:hover {
+.team ul li a:hover {
   -webkit-transform: translate3d(0px, -5px, 0px);
   transform: translate3d(0px, -5px, 0px);
 	color: #316ce8;
@@ -62,7 +75,7 @@ ul li a:hover {
 .center{
   /* margin: auto; */
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   /* padding: 20px; */
 }
 

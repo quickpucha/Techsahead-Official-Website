@@ -21,8 +21,11 @@ a {
 }
 
 body{
-    background: #191919;
     -webkit-tap-highlight-color: transparent;
+}
+
+.parent-color{
+    background: #202020;
 }
 
 .form-section{
@@ -84,6 +87,12 @@ body{
     font-size: 1.3rem;
     margin-bottom: 1.8rem;
     cursor: pointer;
+}
+
+.custom-contact-join-btn:hover{
+    outline: none;
+    background-color: #941210;
+    transition: all .3s ease-in-out;
 }
 
 .form-box-main:before {
