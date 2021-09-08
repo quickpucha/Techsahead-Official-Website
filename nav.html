@@ -7,40 +7,40 @@
 <!-- <link rel="stylesheet" href="./nav_new.css"> -->
 <link rel="stylesheet" href="./nav.css">
 <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
 <title>Home</title>
 </head>
 <body>
     <nav class="navigation-menu default-nav">
         <div class="logo">
-            <a href=""><img  src="/img/logo.svg" alt="logo" /></a>
+            <a href="/"><img  src="/img/logo.svg" alt="logo" /></a>
         </div>
         <div class="navbar-list">
             <ul class="default-ul">
-                <li>
-                    <a href="/">Home</a>
+                <li class="">
+                    <a class="" href="/">Home</a>
                 </li>
-                <li>
-                    <a href="">Events</a>
+                <li class="">
+                    <a class="" href="/Events">Events</a>
                 </li>
-                <li>
-                    <a href="/Team_Page">Team</a>
+                <li class="">
+                    <a class="" href="/Team_Page">Team</a>
                 </li>
-                <li>
-                    <a href="/CA_Page">Campus Ambassador</a>
+                <li class="">
+                    <a class="" href="/CA_Page">Campus Ambassador</a>
                 </li>
-                <li>
-                    <a href="/About">About Us</a>
+                <li class="">
+                    <a class="" href="/#about-section">About Us</a>
                 </li>
-                <li>
-                    <a href="/Contact">Contact</a>
+                <li class="">
+                    <a class="" href="/#contact-section">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
     <nav class="mobile-nav">
         <div class="logo">
-            <a href=""><img src="/img/logo.svg" alt="logo" /></a>
+            <a href="/"><img src="/img/logo.svg" alt="logo" /></a>
         </div>
         <div class="container-nav">    
             <ul class="toggle">
@@ -49,13 +49,13 @@
                 <li></li>
             </ul>
             <div class="sidebar">
-                <img src="/img/logo.svg">
+                <a href="/"><img src="/img/logo.svg" alt="logo" /></a>
                 <ul class="menu">
                     <li>
-                        <a href="./index.html">Home</a>
+                        <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="">Events</a>
+                        <a href="/Events">Events</a>
                     </li>
                     <li>
                         <a href="/Team_Page">Team</a>
@@ -63,12 +63,12 @@
                     <li>
                         <a href="/CA_Page">Campus Ambassador</a>
                     </li>
-                    <li>
-                        <a href="/About">About Us</a>
+                    <!-- <li>
+                        <a href="/#about-section">About Us</a>
                     </li>
                     <li>
-                        <a href="/Contact">Contact</a>
-                    </li>
+                        <a href="/#contact-section">Contact</a>
+                    </li> -->
                 </ul>
                 <!-- <ul class="social-icon">
                     <li><a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a> </li>
@@ -77,12 +77,13 @@
                     <li><a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a> </li>
                     <li><a href="#"> <i class="fa fa-skype" aria-hidden="true"></i> </a> </li>
                 </ul> -->
-        
+                
             </div>
         </div>
     </nav>
 </body>
 
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script>
     $(document).ready(function(){
         $('.container-nav ul.toggle').click(function(){
