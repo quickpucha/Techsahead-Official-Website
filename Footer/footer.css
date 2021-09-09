@@ -43,7 +43,7 @@ footer .content p{
 footer .content .lower .topic{
   /* margin: 24px 0 5px 0; */
 }
-footer .content .lower i{
+footer .content .left i{
   padding-right: 16px;
 }
 footer .content .middle{
@@ -52,21 +52,12 @@ footer .content .middle{
 footer .content .middle a{
   line-height: 32px;
 }
-footer .content .right input[type="text"]{
-  height: 45px;
-  width: 100%;
-  outline: none;
-  color: #121212;
-  background: #121212;
-  border-radius: 5px;
-  padding-left: 10px;
-  font-size: 17px;
-  border: 2px solid #222222;
+
+.left .email a{
+  color: #fff;
+  text-decoration: none;
 }
-.content .right input[type="submit"]:hover{
-  background: none;
-  color:  #eb2f06;
-}
+
 footer .content .media-icons a{
   font-size: 16px;
   height: 45px;
@@ -76,7 +67,7 @@ footer .content .media-icons a{
   line-height: 43px;
   border-radius: 5px;
   border: 2px solid #222222;
-  margin: 30px 5px 0 0;
+  margin: 0px 5px 0 0;
   transition: all 0.3s ease;
 }
 .content .media-icons a:hover{
@@ -87,15 +78,14 @@ footer .bottom{
   text-align: center;
   color: #d9d9d9;
   margin-top: 2%;
-  padding: 0 40px 5px 0;
 }
 footer .bottom a{
   color: #ED221D;
 }
-footer a{
+.left .email a{
   transition: all 0.3s ease;
 }
-footer a:hover{
+.left .email a:hover{
   color: #ED221D;
 }
 @media (max-width:1100px) {
@@ -106,9 +96,6 @@ footer a:hover{
 @media (max-width:950px){
   footer .content .box{
     width: 50%;
-  }
-  .content .right{
-    /* margin-top: 40px; */
   }
 }
 @media (max-width:560px){
@@ -121,5 +108,8 @@ footer a:hover{
   }
   footer .content .middle{
     padding-left: 10px;
+  }
+  footer .bottom{
+    margin-top: 5px;
   }
 }
