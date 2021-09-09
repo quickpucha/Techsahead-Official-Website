@@ -142,6 +142,11 @@ body{
     height: 720px;
 }
 
+.flex{
+    display: flex;
+    align-items: center;
+}
+
 .form-box-main{
     background: #121212;
     min-width: 90%;
@@ -621,6 +626,7 @@ body{
 
 .partner-box {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -678,7 +684,7 @@ body{
 }
 @media screen and (max-width: 1036px) {
     .counter-up{
-        padding: 25px 45px 0 45px;
+        padding: 0px 45px 0 45px;
     }
     .counter-up .content .box{
         width: calc(50% - 30px);
@@ -704,9 +710,9 @@ body{
     }
 }
 
-@media (max-width: 785px) {
+@media (max-width: 580px) {
     .text-5xl{
-        font-size: 1.7rem;
+        font-size: 1.9rem;
         line-height: 2rem;
     }
     .sponsor-head{
