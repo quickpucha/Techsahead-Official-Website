@@ -101,3 +101,33 @@ ul{
     margin-left: 20px; */
 
 }
+
+.custom-contact-join-btn{
+  background: #ED221D;
+  outline: none;
+  /* width: 30%; */
+  margin: 1.9rem 0;
+  border: none;
+  border-radius: 15px;
+  line-height:1.2rem;
+  padding: 0.6rem 1rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+  /* margin-top: 10px; */
+}
+
+.custom-contact-join-btn:hover{
+  outline: none;
+  background-color: #941210;
+  transition: all .3s ease-in-out;
+}
+
+@media (max-width: 450px) {
+  .custom-contact-join-btn{
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+    line-height: 1rem;
+  }
+}
