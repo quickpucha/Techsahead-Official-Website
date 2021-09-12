@@ -11,10 +11,13 @@
     <link rel="stylesheet" href="/Footer/footer.css">
     <link rel="stylesheet" href="../nav.css">
     <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="/Loading/loading.css">
 </head>
-<body>
-      
+<body onload="loadPage()">
+      <div id="techsahead-loader">
+        <div id="page-loader"> </div>
+      </div>
+
   <section class="team team-executive pb-3">
     <div id="nav-placeholder">
     </div>
@@ -407,6 +410,14 @@
 <div id="footer-placeholder">
 </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+<script>
+  const preLoader = document.getElementById('techsahead-loader');
+  function loadPage() {
+    preLoader.style.display = 'none';
+  }
+</script>
 <script>
   $(document).ready(function () {
     $('.container ul.toggle').click(function () {
@@ -415,12 +426,18 @@
     })
   })
 </script>
+<script>
+  $(function () {
+    $("#page-loader").load("/Loading");
+  });
+</script>
 
 <script>
   $(function () {
     $("#nav-placeholder").load("../nav.html");
   });
 </script>
+
 
 <script>
   $(function () {

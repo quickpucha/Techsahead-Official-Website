@@ -14,10 +14,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Loading/loading.css">
     <title>Techsahead 💻</title>
 </head>
 
-<body>
+<body onload="loadPage()">
+    <div id="techsahead-loader">
+        <div id="page-loader"> </div>
+    </div>
     <section class="hero">
         <div id="nav-placeholder">
         </div>
@@ -34,18 +38,20 @@
         </div>
     </section>
 
-    <section id="about-section" class="mx-auto" style="text-align: center;">
-        <h1 align="center" class="text-5xl">ABOUT US</h1>
-        <div class="about-text" style="text-align: wrap;">
-            <p class="text-2xl mt-2">
-                Our community is an open platform for all students to learn and grow together.
-                At techsahead we believe in the power of knowledge to enhance humanity and
-                make greater impacts. For tech-enthusiast, budding entrepreneurs, designers and
-                curious learners, Techsahead is here for you. We organise peer to peer learning
-                sessions, engage with people and make sure you learn from the best.
-            </p>
+    <div class="about-section-wrapper">
+        <section id="about-section" class="mx-auto" style="text-align: center;">
+            <h1 align="center" class="text-5xl">ABOUT US</h1>
+            <div class="about-text" style="text-align: wrap;">
+                <p class="text-2xl mt-2">
+                    Our community is an open platform for all students to learn and grow together.
+                    At techsahead we believe in the power of knowledge to enhance humanity and
+                    make greater impacts. For tech-enthusiast, budding entrepreneurs, designers and
+                    curious learners, Techsahead is here for you. We organise peer to peer learning
+                    sessions, engage with people and make sure you learn from the best.
+                </p>
+            </div>
         </div>
-    </section>
+    </div>
 
     <div class="stats parent-color mb-2 mt-2 py-3">
         <h1 align="center" class="text-5xl mb-2">STATS</h1>
@@ -284,13 +290,18 @@
         });
 </script> -->
 <script>
-    $(document).ready(function () {
-        $('.container ul.toggle').click(function () {
-            $(this).toggleClass('active');
-            $('.container .sidebar').toggleClass('active');
-        })
-    })
+    const preLoader = document.getElementById('techsahead-loader');
+    function loadPage() {
+        preLoader.style.display = 'none';
+    }
 </script>
+
+<script>
+    $(function () {
+        $("#page-loader").load("/Loading");
+    });
+</script>
+
 
 <script>
     $(function () {

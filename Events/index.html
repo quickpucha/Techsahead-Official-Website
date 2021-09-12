@@ -13,11 +13,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap"
         rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="/Loading/loading.css">
     <title>Techsahead 💻</title>
 </head>
 
-<body>
+<body onload="loadPage()">
+    <div id="techsahead-loader">
+        <div id="page-loader"> </div>
+    </div>
     <section class="event-page">
         <div id="nav-placeholder">
         </div>
@@ -63,6 +66,21 @@
     <div id="footer-placeholder">
     </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+<script>
+    const preLoader = document.getElementById('techsahead-loader');
+    function loadPage() {
+        preLoader.style.display = 'none';
+    }
+</script>
+
+<script>
+    $(function () {
+        $("#page-loader").load("/Loading");
+    });
+</script>
+
 <script>
     $(document).ready(function () {
         $('.container ul.toggle').click(function () {
