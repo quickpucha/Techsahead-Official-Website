@@ -34,6 +34,7 @@ Here are a few things that will help us help resolve your issues:
 }
 ```
 4. Wait for your pull request to be reviewed and merged!
+5. Don't forget to give a star to the repo :)
 
 [Your First Pull Request](https://hacktoberfest.digitalocean.com/resources)
 
