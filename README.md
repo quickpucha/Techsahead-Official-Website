@@ -19,20 +19,21 @@
    <img src="https://user-images.githubusercontent.com/74819092/129082774-e74b7928-5a9c-4917-95a9-26cabc40c2db.jpeg" width=300, height=200>
        
 </p>
-<h2>💻 About Us</h2>
+<h2 align="center">💻 About Us</h2>
 
-Our community is an open platform for all students to learn and grow together. At *Techsahead* we believe in the power of knowledge to enhance humanity and make greater impacts. For tech-enthusiast, budding entrepreneurs, designers, and curious learners, Techsahead is here for you. We organize peer to peer learning sessions, engage with people and make sure you learn from the best. To stay updated about the latest trends in technology stay tuned with us.
+<p align="center" >Our community is an open platform for all students to learn and grow together. At *Techsahead* we believe in the power of knowledge to enhance humanity and make greater impacts. For tech-enthusiast, budding entrepreneurs, designers, and curious learners, Techsahead is here for you. We organize peer to peer learning sessions, engage with people and make sure you learn from the best. To stay updated about the latest trends in technology stay tuned with us.</p>
 
-<h2>🤩 Perks of Joining Community </h2>
-
+<h2 align="center">🤩 Perks of Joining Community </h2>
+<p align="center">
 * Building Connections
 * Opportunities
 * Social Exposure
 * Open Source Contribuitons
 * Personality and Skill Development
+  </p>
 
-## 🤝🏻 Join Our Community:
-<p align="left">
+<h2 align="center" 🤝🏻 Join Our Community: </h2>
+<p align="center">
 <a href = "https://discord.gg/gn6mAXcf4q" target="_blank"><img src="https://img.icons8.com/color/48/000000/discord--v2.png"/>
 <a href = "https://www.linkedin.com/company/techsahead" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
 <a href = "https://www.instagram.com/techsahead/" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
@@ -41,7 +42,7 @@ Our community is an open platform for all students to learn and grow together. A
 </p>
   
   
-  <h2>Want to Become a leader🌟</h2>
+  <h2 align="center">Want to Become a leader🌟</h2>
   
   |  | |  |
 | :---:         |     :---:      |          :---: |
@@ -51,15 +52,15 @@ Our community is an open platform for all students to learn and grow together. A
 |Event evangelist|Community head|Community manager|
 |Mentors|Public relations manager|Outreach Manager||
   
-### Mails us your resume if you want to become our Campus Ambassador 😎 
+  <h3 align="center"> Mails us your resume if you want to become our Campus Ambassador 😎 </h3>
 
   [![Gmail Badge](https://img.shields.io/badge/-techsahead2021@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:techsahead2021@gmail.com)](mailto:techsahead2021@gmail.com)
   
-## Community Founder 👩🏻‍💻
-<a href = "https://github.com/iamgunjan/iamgunjan"><img src="https://avatars.githubusercontent.com/u/53567221?v=4" width=50, height=50/></a>
+  <h2 align="center"> Community Founder 👩🏻‍💻 </h2>
+<a align="center" href = "https://github.com/iamgunjan/iamgunjan"><img src="https://avatars.githubusercontent.com/u/53567221?v=4" width=50, height=50/></a>
   
-## Techsahead Contributors 💪🏻
-<a href = "https://github.com/Komal-99"><img src="https://avatars.githubusercontent.com/u/74819092?s=400&v=4" width=50, height=50/></a>
+  <h2 align="center"> Techsahead Contributors 💪🏻 </h2>
+<a align="center" href = "https://github.com/Komal-99"><img src="https://avatars.githubusercontent.com/u/74819092?s=400&v=4" width=50, height=50/></a>
   <a href = "https://github.com/Dhairya3124"><img src="https://avatars.githubusercontent.com/u/31827131?v=4" width=50, height=50/></a>
   <a href = "https://github.com/imrantechwiz"><img src="https://avatars.githubusercontent.com/u/56226186?v=4" width=50, height=50/></a>
   <a href = "https://github.com/Karan-Dhingra"><img src="https://avatars.githubusercontent.com/u/68160897?v=44" width=50, height=50/></a>
